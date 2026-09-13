@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/services/" />
+  <Folder Name="/src/services/Combat/">
+    <Project Path="src/services/Combat/Tactician.Combat.Api/Tactician.Combat.Api.csproj" />
+    <Project Path="src/services/Combat/Tactician.Combat.Application/Tactician.Combat.Application.csproj" />
+    <Project Path="src/services/Combat/Tactician.Combat.Domain/Tactician.Combat.Domain.csproj" />
+    <Project Path="src/services/Combat/Tactician.Combat.Infrastructure/Tactician.Combat.Infrastructure.csproj" />
+    <Project Path="src/services/Combat/Tactician.Combat.Worker/Tactician.Combat.Worker.csproj" />
+  </Folder>
+  <Folder Name="/src/shared/">
+    <Project Path="src/shared/Tactician.Shared.Contracts/Tactician.Shared.Contracts.csproj" />
+  </Folder>
+</Solution>
