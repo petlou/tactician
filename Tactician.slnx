@@ -11,4 +11,8 @@
   <Folder Name="/src/shared/">
     <Project Path="src/shared/Tactician.Shared.Contracts/Tactician.Shared.Contracts.csproj" />
   </Folder>
+  <Folder Name="/src/tests/" />
+  <Folder Name="/src/tests/Combat/">
+    <Project Path="src/tests/Combat/Tactician.Combat.Domain.Tests/Tactician.Combat.Domain.Tests.csproj" />
+  </Folder>
 </Solution>
