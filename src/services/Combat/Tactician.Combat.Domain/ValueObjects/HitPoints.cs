@@ -32,7 +32,9 @@ public sealed class HitPoints : ValueObject
     {
         if (amount < 0)
             throw new DomainException("Damage amount cannot be negative.");
+
         var newCurrent = Math.Max(Current - amount, 0);
+        
         return new HitPoints(newCurrent, Max);
     }
 

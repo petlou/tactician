@@ -40,6 +40,7 @@ public sealed class Npc : Entity
     {
         var healingResult = HitPoints.ApplyHealing(amount);
         HitPoints = healingResult.NewHitPoints;
+        
         return healingResult.OverHealAmount;
     }
 }
