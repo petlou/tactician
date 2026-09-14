@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace Tactician.Combat.Domain.Exceptions;
 
-namespace Tactician.Combat.Domain.Exceptions;
-
-internal class DomainException
+public class DomainException : Exception
 {
+    public DomainException(string message) : base(message) { }
 }
